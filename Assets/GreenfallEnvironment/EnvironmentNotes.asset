@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Greenfall Environment Guide
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: c2669591c82a8a843a3360fa3382b990, type: 3}
+  title: Greenfall Environment
+  sections:
+  - heading: Lingkungan
+    text: 'Scene Greenfall menggunakan terrain bertile, vegetasi, pepohonan, bebatuan, air, skybox, dan kabut untuk area eksplorasi.'
+    linkText: 
+    url: 
+  - heading: Rendering
+    text: 'Universal Render Pipeline menangani pencahayaan dan tampilan lingkungan. Profil PC mengatur jarak detail terrain, pohon, dan bayangan.'
+    linkText: 
+    url: 
+  - heading: Pencahayaan
+    text: 'Data pencahayaan baked untuk scene Greenfall disimpan di Assets/Scenes/Greenfall bersama scene.'
+    linkText: 
+    url: 
+  - heading: Sumber Aset
+    text: 'Catatan lisensi dan atribusi aset lingkungan disimpan di ThirdPartyNotices.txt. Sertakan file tersebut saat memindahkan atau membagikan project.'
+    linkText: 
+    url: 
+  - heading: Scene Utama
+    text: 'Scene permainan berada di Assets/Scenes/Greenfall.unity dan menjadi satu-satunya scene yang terdaftar untuk build.'
+    linkText: 
+    url: 
+  loadedLayout: 1

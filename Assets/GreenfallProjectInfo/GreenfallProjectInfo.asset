@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Greenfall Project Guide
+  m_EditorClassIdentifier: 
+  commonStyle: {fileID: 7433441132597879392, guid: d2c670ece470f4c4fa6712b8dc28a9bb, type: 3}
+  darkStyle: {fileID: 7433441132597879392, guid: 1f902e57f049a7f47986618de93f5ee1, type: 3}
+  lightStyle: {fileID: 7433441132597879392, guid: 69e7ab73923f93149821ac3a88b84856, type: 3}
+  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
+  title: "Greenfall: Relik Terakhir"
+  sections:
+  - heading: Tentang Greenfall
+    text: Greenfall adalah game petualangan third-person tentang mencari relik di hutan dan menghadapi para penjaganya.
+    linkText: 
+    url:
+  - heading: Menjalankan Game
+    text: Buka Assets/Scenes/Greenfall.unity lalu tekan Play di Unity Editor.
+    linkText: 
+    url:
+  - heading: Kontrol
+    text: WASD bergerak, mouse memutar kamera, Shift berlari, Space melompat, klik kiri atau Ctrl menyerang, dan Esc membuka jeda.
+    linkText: 
+    url:
+  - heading: Build Windows
+    text: Pilih Tools > Game > Build Greenfall for Windows. Hasil build akan disimpan di Build/Greenfall/Greenfall.exe.
+    linkText: 
+    url:
+  loadedLayout: 1
